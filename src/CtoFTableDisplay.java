@@ -6,12 +6,6 @@ public class CtoFTableDisplay {
             double f = CtoF(i);
             System.out.printf("%-5d %10.2f \n", i, f);
          }
-
-
-
-
-
-
     }
 
     public static double CtoF(double Celsius) {
