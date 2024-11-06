@@ -9,8 +9,7 @@ public class CtoFTableDisplay {
     }
 
     public static double CtoF(double Celsius) {
-        double c = Celsius;
-        double f = (c*1.8) + 32;
+        double f = (Celsius*1.8) + 32;
         return f;
     }
 }
